@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: CoreMotion library for Titanium Mobile
+author: Ben Bahrenburg
+license: Apache 2
+copyright: Copyright (c) 2014 by Ben Bahrenburg
+
+
+# these should not be edited
+name: TiCoreMotion
+moduleid: ti.coremotion
+guid: 6b65e1c8-61a3-4186-9c81-461332fe86a0
+platform: iphone
+minsdk: 3.2.0.GA
