@@ -26,6 +26,8 @@
 		24DD6CFA1134B3F500162E58 /* TiCoremotionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiCoremotionModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* TiCoremotionModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiCoremotionModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* TiCoremotionModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiCoremotionModuleAssets.m */; };
+		433944731896194A00F7F329 /* TiCoremotionActivityMonitorProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 433944711896194A00F7F329 /* TiCoremotionActivityMonitorProxy.h */; };
+		433944741896194A00F7F329 /* TiCoremotionActivityMonitorProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 433944721896194A00F7F329 /* TiCoremotionActivityMonitorProxy.m */; };
 		43B4335D1895CBFC0032ED24 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B4335C1895CBFC0032ED24 /* CoreMotion.framework */; };
 		43B433601895CCF00032ED24 /* TiCoremotionStepCounterProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B4335E1895CCF00032ED24 /* TiCoremotionStepCounterProxy.h */; };
 		43B433611895CCF00032ED24 /* TiCoremotionStepCounterProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4335F1895CCF00032ED24 /* TiCoremotionStepCounterProxy.m */; };
@@ -49,6 +51,8 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* TiCoremotionModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiCoremotionModuleAssets.h; path = Classes/TiCoremotionModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* TiCoremotionModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiCoremotionModuleAssets.m; path = Classes/TiCoremotionModuleAssets.m; sourceTree = "<group>"; };
+		433944711896194A00F7F329 /* TiCoremotionActivityMonitorProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiCoremotionActivityMonitorProxy.h; path = Classes/TiCoremotionActivityMonitorProxy.h; sourceTree = "<group>"; };
+		433944721896194A00F7F329 /* TiCoremotionActivityMonitorProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiCoremotionActivityMonitorProxy.m; path = Classes/TiCoremotionActivityMonitorProxy.m; sourceTree = "<group>"; };
 		43B4335C1895CBFC0032ED24 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		43B4335E1895CCF00032ED24 /* TiCoremotionStepCounterProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiCoremotionStepCounterProxy.h; path = ../Ti.Cloud/Classes/TiCoremotionStepCounterProxy.h; sourceTree = "<group>"; };
 		43B4335F1895CCF00032ED24 /* TiCoremotionStepCounterProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiCoremotionStepCounterProxy.m; path = ../Ti.Cloud/Classes/TiCoremotionStepCounterProxy.m; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				24DD6CF81134B3F500162E58 /* TiCoremotionModule.m */,
 				43B4335E1895CCF00032ED24 /* TiCoremotionStepCounterProxy.h */,
 				43B4335F1895CCF00032ED24 /* TiCoremotionStepCounterProxy.m */,
+				433944711896194A00F7F329 /* TiCoremotionActivityMonitorProxy.h */,
+				433944721896194A00F7F329 /* TiCoremotionActivityMonitorProxy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433944731896194A00F7F329 /* TiCoremotionActivityMonitorProxy.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* TiCoremotion_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* TiCoremotionModule.h in Headers */,
 				43B433601895CCF00032ED24 /* TiCoremotionStepCounterProxy.h in Headers */,
@@ -203,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433944741896194A00F7F329 /* TiCoremotionActivityMonitorProxy.m in Sources */,
 				43B433611895CCF00032ED24 /* TiCoremotionStepCounterProxy.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* TiCoremotionModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* TiCoremotionModuleAssets.m in Sources */,
